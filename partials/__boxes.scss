@@ -1,0 +1,20 @@
+$size: 50px;
+
+.box {
+  margin: 1em;
+  height: $size;
+  width: $size;
+  background: skyblue;
+
+  &--one {
+    //
+  }
+
+  &--two {
+    height: $size * 2;
+  }
+
+  &--three {
+    width: $size + 30px;
+  }
+}

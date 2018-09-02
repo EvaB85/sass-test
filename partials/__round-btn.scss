@@ -1,0 +1,12 @@
+%round-btn {
+  height: 100px;
+  width: 100px;
+  background: forestgreen;
+  color: papayawhip;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.round-btn {
+  @extend %round-btn;
+}
